@@ -52,8 +52,8 @@ Enigma.prototype.type = function(inputText){
 };
 
 Enigma.prototype.reset = function(phrase){
-  // reverse and split pass phrase, because we read from left to right, but rotors
-  // are positionned from right to left.
+  // reverse and split passphrase, because we read from left to right, but rotors
+  // are positioned from right to left.
   var pos = phrase.split('').reverse();
   this._r1.setPosition(pos[0]);
   this._r2.setPosition(pos[1]);
