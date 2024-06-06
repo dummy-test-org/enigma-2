@@ -52,7 +52,7 @@ Enigma.prototype.type = function(inputText){
 };
 
 Enigma.prototype.reset = function(phrase){
-  // var unused = 7;
+  var unused = 7;
   
   // reverse and split passphrase, because we read from left to right, but rotors
   // are positioned from right to left.
