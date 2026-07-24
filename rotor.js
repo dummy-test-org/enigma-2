@@ -45,6 +45,7 @@ Rotor.prototype.rotate = function(){
   return this._notches.indexOf(this._pos) > -1;
 }
 
+// Jump to a position
 Rotor.prototype.setPosition = function(pos){
   this._pos = pos ? utils.toNum(pos)[0] : this._originalPos;
   var arr = utils.toNum(this._permutation);
